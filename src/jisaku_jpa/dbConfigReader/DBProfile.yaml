@@ -1,0 +1,20 @@
+#DBの設定(記入例)
+#!!jisaku_jpa.dbConfigReader.DBConfig #DB定義設定クラスのパス(基本変更しないでください)
+#driver: com.mysql.cj.jdbc.Driver #driver名（左記はMySQLの例。自分の使用したいDBのDriver名を指定してください）
+#url: jdbc:mysql://@localhost:3306/taskappdatabase #DBのURL（左記はMySQLの例。自分の使用したいDBのURL()を指定してください）
+#user: root #DBのユーザ
+#password: password #DBのパスワード
+#numberOfAccess: 5 #コネクションの数（基本変更なし、アプリケーション実行時にコネクション数が不足している場合は、適宜変更してください。）
+#dbName: taskappdatabase #DB名
+#dbType: MySQL #DBの種類（今回対応するのはOracleLとMySQLのみ。大文字小文字は区別しません。）
+#schema: #schema名(特段記載なしでもOK)
+
+!!jisaku_jpa.dbConfigReader.DBConfig
+driver: oracle.jdbc.OracleDriver
+url: jdbc:oracle:thin:@localhost:1521/taskappdatabase.localdomain
+user: TASKAPP_ADMIN
+password: password
+numberOfAccess: 5
+dbName: taskappdatabase.localdomain
+dbType: OracleDB
+schema:

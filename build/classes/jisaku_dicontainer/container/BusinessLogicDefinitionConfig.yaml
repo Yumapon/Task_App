@@ -1,0 +1,11 @@
+#BusinessLogicクラスの定義（記入例）
+#---
+#!!jisaku_dicontainer.container.definition_entity.BusinessLogicDefinition #Bean定義設定クラスのパス(基本変更しないでください)
+#interfaceClass: usercreatesample.businessLogic.BusinessLogic #BLクラスのインターフェースのパス
+#name: bl1 #BLクラスの呼び出し名 （定義している変数名を指定）例）String teststr; ならteststrを指定
+#type: usercreatesample.businessLogic.DefaultBusinessLogic #BL実装クラスのパス (src以下のパスを指定)
+---
+!!jisaku_dicontainer.container.definition_entity.BusinessLogicDefinition
+interfaceClass: application.businessLogic.BusinessLogic
+name: bl1
+type: application.businessLogic.DefaultBusinessLogic

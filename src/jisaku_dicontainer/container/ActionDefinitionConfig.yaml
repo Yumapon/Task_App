@@ -1,0 +1,13 @@
+#Actionクラスの定義（記入例）
+#---
+#!!jisaku_dicontainer.container.definition_entity.ActionDefinition #Action定義設定クラスのパス(基本変更しないでください)
+#name: action #Actionクラスの呼び出し名（定義している変数名を指定）例）String teststr; ならteststrを指定
+#type: usercreatesample.actions.Action #Actionクラスのパス (src以下のパスを指定)
+---
+!!jisaku_dicontainer.container.definition_entity.ActionDefinition
+name: action
+type: application.actions.Action
+---
+!!jisaku_dicontainer.container.definition_entity.ActionDefinition
+name: loginAction
+type: application.actions.LoginAction

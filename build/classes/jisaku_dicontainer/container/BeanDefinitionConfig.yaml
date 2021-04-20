@@ -1,0 +1,17 @@
+#Beanクラスの定義（記入例）
+#---
+#!!jisaku_dicontainer.container.definition_entity.BeanDefinition #Bean定義設定クラスのパス(基本変更しないでください)
+#name: createTask #Beanクラスの呼び出し名（定義している変数名を指定）例）String teststr; ならteststrを指定
+#type: usercreatesample.beans.CreateTaskEntity #Beanクラスのパス(src以下のパスを指定)
+---
+!!jisaku_dicontainer.container.definition_entity.BeanDefinition
+name: createTask
+type: application.beans.CreateTaskEntity
+---
+!!jisaku_dicontainer.container.definition_entity.BeanDefinition
+name: userInfo
+type: application.beans.UserInfoEntity
+---
+!!jisaku_dicontainer.container.definition_entity.BeanDefinition
+name: deleteTask
+type: application.beans.DeleteTaskEntity
